@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khushi's Beauty Art | Mehendi & Bridal Makeup Artist</title>
+    <meta name="description" content="Professional beauty artist specializing in Mehendi, Bridal Makeup, Party Makeup, and Hand Art.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">Khushi's<span>Beauty</span></a>
+            
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Elevate Your Beauty</h1>
+                <p class="hero-subtitle">Professional Mehendi & Bridal Makeup Artist</p>
+                <a href="#contact" class="btn">Book an Appointment</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Services</h2>
+                <p class="section-subtitle">Transforming beauty into art</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="images/services/mehendi.jpg" alt="Mehendi Art">
+                    </div>
+                    <div class="service-content">
+                        <h3>Mehendi Art</h3>
+                        <p>Intricate and beautiful henna designs for weddings, festivals, and special occasions.</p>
+                        <a href="#contact" class="btn btn-small">Book Now</a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="images/services/bridal.jpg" alt="Bridal Makeup">
+                    </div>
+                    <div class="service-content">
+                        <h3>Bridal Makeup</h3>
+                        <p>Flawless and radiant bridal looks that last all day and photograph beautifully.</p>
+                        <a href="#contact" class="btn btn-small">Book Now</a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="images/services/party.jpg" alt="Party Makeup">
+                    </div>
+                    <div class="service-content">
+                        <h3>Party Makeup</h3>
+                        <p>Glamorous makeup looks for any special event or night out.</p>
+                        <a href="#contact" class="btn btn-small">Book Now</a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="images/services/hand-art.jpg" alt="Hand Art">
+                    </div>
+                    <div class="service-content">
+                        <h3>Hand Art</h3>
+                        <p>Creative and unique hand painting designs for festivals and celebrations.</p>
+                        <a href="#contact" class="btn btn-small">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="section portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Portfolio</h2>
+                <p class="section-subtitle">A glimpse of my recent work</p>
+            </div>
+            
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="mehendi">Mehendi</button>
+                <button class="filter-btn" data-filter="bridal">Bridal</button>
+                <button class="filter-btn" data-filter="party">Party</button>
+                <button class="filter-btn" data-filter="hand-art">Hand Art</button>
+            </div>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="mehendi">
+                    <img src="images/portfolio/1.jpg" alt="Mehendi Design">
+                    <div class="portfolio-overlay">
+                        <h3>Mehendi Design</h3>
+                        <p>Intricate bridal mehendi</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="bridal">
+                    <img src="images/portfolio/2.jpg" alt="Bridal Makeup">
+                    <div class="portfolio-overlay">
+                        <h3>Bridal Makeup</h3>
+                        <p>Traditional bridal look</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="party">
+                    <img src="images/portfolio/3.jpg" alt="Party Makeup">
+                    <div class="portfolio-overlay">
+                        <h3>Party Makeup</h3>
+                        <p>Evening glam look</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="hand-art">
+                    <img src="images/portfolio/4.jpg" alt="Hand Art">
+                    <div class="portfolio-overlay">
+                        <h3>Hand Art</h3>
+                        <p>Festival design</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="mehendi">
+                    <img src="images/portfolio/5.jpg" alt="Mehendi Design">
+                    <div class="portfolio-overlay">
+                        <h3>Mehendi Design</h3>
+                        <p>Modern arabic style</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="bridal">
+                    <img src="images/portfolio/6.jpg" alt="Bridal Makeup">
+                    <div class="portfolio-overlay">
+                        <h3>Bridal Makeup</h3>
+                        <p>Contemporary bridal</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="images/about.jpg" alt="Khushi - Beauty Artist">
+                </div>
+                
+                <div class="about-text">
+                    <div class="section-header">
+                        <h2 class="section-title">About Me</h2>
+                        <p class="section-subtitle">The artist behind the beauty</p>
+                    </div>
+                    
+                    <p>Hello! I'm Khushi, a passionate beauty artist with over 8 years of experience in creating stunning bridal looks and intricate mehendi designs.</p>
+                    
+                    <p>My journey began when I discovered my love for transforming natural beauty into works of art. I specialize in creating looks that enhance your features while maintaining your unique personality.</p>
+                    
+                    <p>What sets me apart is my attention to detail and commitment to using only the highest quality products. I stay updated with the latest trends while respecting traditional techniques.</p>
+                    
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-text">Happy Brides</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">8+</span>
+                            <span class="stat-text">Years Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-text">Client Satisfaction</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's create something beautiful together</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-info-content">
+                            <h4>Location</h4>
+                            <p>123 Beauty Street, Art City</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-info-content">
+                            <h4>Email</h4>
+                            <p>hello@khushisbeauty.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-info-content">
+                            <h4>Phone</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-social">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <a href="#" class="logo">Khushi's<span>Beauty</span></a>
+                    <p>Creating beautiful transformations with passion and precision.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Mehendi Art</a></li>
+                        <li><a href="#">Bridal Makeup</a></li>
+                        <li><a href="#">Party Makeup</a></li>
+                        <li><a href="#">Hand Art</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-newsletter">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe for beauty tips and special offers.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your Email">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2023 Khushi's Beauty. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox -->
+    <div class="lightbox">
+        <div class="lightbox-content">
+            <div class="lightbox-close">&times;</div>
+            <img src="" alt="" class="lightbox-img">
+            <div class="lightbox-caption"></div>
+            <div class="lightbox-nav">
+                <span class="lightbox-prev"><i class="fas fa-chevron-left"></i></span>
+                <span class="lightbox-next"><i class="fas fa-chevron-right"></i></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
